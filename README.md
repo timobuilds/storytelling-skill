@@ -57,28 +57,15 @@ Use stories-that-connect — synthesize these five user interviews
 
 ## Install
 
-### npm / GitHub
-
 ```bash
-npm install github:timobuilds/storytelling-skill --foreground-scripts
-npx storyteller-skills          # if hooks were skipped
-npx storyteller-skills --global # also ~/.cursor, ~/.claude, ~/.codex, ~/.agents
+npm install github:timobuilds/storytelling-skill
 ```
 
-Or from this repo: `npm install`
-
-Hooks symlink skills into `.cursor/skills/`, `.claude/skills/`, `.codex/skills/`, `.agents/skills/`.
-
-### skills CLI
+That’s it. Postinstall links the skills into `.cursor/skills`, `.claude/skills`, `.codex/skills`, and `.agents/skills` in your project.
 
 ```bash
-npx skills add timobuilds/storytelling-skill --skill '*' -y
-npx skills add timobuilds/storytelling-skill -g --skill '*' -y
+npm install -g github:timobuilds/storytelling-skill   # all your projects
 ```
-
-### ChatGPT
-
-Upload folders under `skills/` (each needs `SKILL.md`). Prefer `storyteller-start`, one recipe, and `storyteller-tactics`.
 
 ## Exemplars (fictional — product / startup themed)
 
@@ -101,16 +88,9 @@ package.json
 scripts/install.cjs
 skills/
   storyteller-start/
-  stories-that-*/      # recipes + templates + exemplars
-  storyteller-tactics/ # doctrine, chapters, glossary
+  stories-that-*/
+  storyteller-tactics/
 README.md
-```
-
-## Publish
-
-```bash
-npm login
-npm publish   # package name: storyteller-skills
 ```
 
 ## Source & rights

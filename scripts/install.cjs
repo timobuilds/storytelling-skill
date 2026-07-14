@@ -106,16 +106,21 @@ function main() {
   }
 
   const root = projectRoot();
+  const npmGlobal =
+    process.env.npm_config_global === "true" ||
+    process.env.npm_config_global === "1";
   const wantGlobal =
+    npmGlobal ||
     process.env.STORYTELLER_SKILLS_GLOBAL === "1" ||
     process.argv.includes("--global") ||
     process.argv.includes("-g");
 
-  const targets = [...agentTargets(root)];
-  if (wantGlobal) targets.push(...globalTargets());
-
-  // Always also refresh globals when installing this repo itself (dev)
-  if (!isInsideNodeModules(pkgRoot) || wantGlobal) {
+  const targets = [];
+  // Project agent dirs (skip when this is a pure global npm install)
+  if (!npmGlobal) {
+    targets.push(...agentTargets(root));
+  }
+  if (wantGlobal || !isInsideNodeModules(pkgRoot)) {
     for (const t of globalTargets()) {
       if (!targets.includes(t)) targets.push(t);
     }
@@ -123,7 +128,8 @@ function main() {
 
   let ok = 0;
   let fail = 0;
-  console.log(`[storyteller-skills] Installing ${skills.length} skills into agents under ${root}`);
+  const where = npmGlobal ? "global agent skill dirs" : root;
+  console.log(`[storyteller-skills] Installing ${skills.length} skills → ${where}`);
 
   for (const target of targets) {
     for (const name of skills) {
