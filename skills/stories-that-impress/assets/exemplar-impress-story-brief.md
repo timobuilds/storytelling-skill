@@ -1,36 +1,36 @@
 # Exemplar — Impress Story Brief (fictional)
 
-Composite example for agents. Not a real company.
+Product / startup themed. Composite — not a real company.
 
 ```markdown
 # Impress Story Brief
-- Audience + room (live / remote / async deck): 25-min customer summit talk (live + livestream). Mixed technical and exec. Phones out — attention is rented.
-- Core point (What’s It About?): Your security review doesn’t fail on cryptography — it fails on the Tuesday afternoon when a contractor still has access.
-- Opening hook (unexpected | knowledge) + payoff: Unexpected — “I’m not going to talk about zero-trust.” Payoff: talk about the contractor account that should have died on Friday and didn’t.
+- Audience + room (live / remote / async deck): 12-min seed demo-day / board update (live + recording). Mixed technical and investor. Phones out — attention is rented.
+- Core point (What’s It About?): Startups don’t lose to competitors first — they lose to status fiction between PM and eng.
+- Opening hook (unexpected | knowledge) + payoff: Unexpected — “I’m not going to show you another dashboard.” Payoff: show the Tuesday 4:07 Slack paste that every PM knows by heart.
 - Movie moment (action + emotion → meaning):
-  - Action: 4:47 p.m., contractor laptop opens a prod dashboard after the project ended.
-  - Emotion: Hot dread in the IT lead’s stomach when the alert finally fires Monday.
-  - Meaning: Access decay is a story problem of offboarding, not a slogan problem of architecture.
+  - Action: 4:07 p.m., PM pastes a seven-line “real status” block into Slack after the roadmap tool said green.
+  - Emotion: Hot dread — they already know Friday’s slip is baked in.
+  - Meaning: The product opportunity is the exception, not the wallpaper.
 - Five Ts:
-  - Timeline: Project ends Friday → access lingers → alert Monday → war room → new offboarding ritual.
-  - Turning Points: “We realized the HR ticket wasn’t wired to IdP.”
-  - Tensions: Start at Monday’s alert, then rewind.
-  - Temptations: Easy way = “remind managers by email.” Right thing = hard cut + exception path.
-  - Teachable Moment: If offboarding isn’t a productized ritual, zero-trust is cosplay.
+  - Timeline: Green roadmap → Slack truth → late ship → design partner anger → Harbor exception queue.
+  - Turning Points: “We realized activation without exceptions is fake activation.”
+  - Tensions: Start at the Slack paste, then rewind.
+  - Temptations: Easy way = ship AI status summaries. Right thing = force one real exception ritual.
+  - Teachable Moment: If your product doesn’t make blockers first-class, you’re selling fiction.
 - Three takeaways:
-  1. Lead with the lingering contractor — not the framework name.
-  2. Offboarding ritual > slideware architecture.
-  3. Show the Monday alert, then the new Friday kill-switch.
+  1. Lead with the Slack ritual — not the category noun.
+  2. Exception habit > dashboard screenshots.
+  3. Twinpeak: 11 → 6 days spec → prod after the ritual stuck.
 - Show & Tell map (image → say → unseen):
-  1. Image: calendar Friday “project closed” → say what it is → tell: access still green.
-  2. Image: Monday alert screenshot → name it → tell: 62 hours of quiet risk.
-  3. Image: one-page offboarding swimlane → name it → tell: what humans still decide vs auto-kill.
+  1. Image: green roadmap screenshot → name it → tell: it’s fiction.
+  2. Image: Tuesday 4:07 Slack paste → name it → tell: this is the real product surface today.
+  3. Image: Harbor exception queue (one squad) → name it → tell: what humans still decide vs auto.
 - Cut to the Chase bailouts:
-  - Action: “Suddenly Monday 9:12 — the alert.”
-  - Emotion: “That’s the dread face every IT lead knows.”
-  - Meaning: “So the point is — ritualize Friday, don’t poster the walls with zero-trust.”
-  - Question: “Whose access would still be green if a project ended last Friday?”
+  - Action: “Suddenly Tuesday 4:07 — the paste.”
+  - Emotion: “That’s the dread every PM knows before a slip.”
+  - Meaning: “So the point is — productize the exception, don’t poster the walls with AI status.”
+  - Question: “What’s your team’s version of the Tuesday paste?”
 - Talk track draft (timed):
-  0:00 Hook (no zero-trust) → 0:02 Movie (4:47 laptop) → 0:08 Timeline rewind → 0:14 Swimlane Show&Tell → 0:20 Ask + three takeaways → 0:24 Q spare.
-- TBD: Confirm alert screenshot redaction; customer name anonymized as “a design partner.”
+  0:00 Hook (no dashboard) → 0:01 Movie (4:07 paste) → 0:04 Timeline → 0:07 Show&Tell exception queue → 0:10 Twinpeak proof → 0:11 Ask → 0:12 spare.
+- TBD: Confirm Twinpeak anonymization for this room; board wants burn vs. runway one-liner.
 ```

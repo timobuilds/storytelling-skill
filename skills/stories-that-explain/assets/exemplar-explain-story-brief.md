@@ -1,26 +1,26 @@
 # Exemplar — Explain Story Brief (fictional)
 
-Composite example for agents. Not a real company.
+Product / startup themed. Composite — not a real company.
 
 ```markdown
 # Explain Story Brief
-- Audience for the strategy: All-hands at “Parcelite” (B2B returns logistics). Mix of eng, CS, sales. Last strategy doc was a 41-page PDF nobody finished.
+- Audience for the strategy: Harbor all-hands (product, eng, design, GTM). Last “strategy” was a 28-page Notion doc nobody finished.
 - Known world (Order) — good / bad:
-  - Good: Reliable reverse-logistics for mid-market DTC; strong CS relationships.
-  - Bad: We’ve been saying “platform” while still winning on heroics and Slack.
+  - Good: Strong design-partner love on handoff; clear wedge intuition on the founding team.
+  - Bad: We’ve been saying “product ops platform” while still shipping dashboard surfaces that don’t retain.
 - Unknown world (Chaos) — threat / opportunity:
-  - Threat: Retailers demanding API-first returns + same-week SLAs.
-  - Opportunity: Our CS playbooks are secretly a product — if we productize exception handling.
-- Hero response (impose order | inject life): **Impose order** on exceptions (turn tribal knowledge into product), **inject life** into a sales motion stuck selling “we’ll figure it out.”
-- Moral stake (foundation or two-rights): **Care vs harm** colliding with **loyalty vs betrayal** — do we keep promising custom for loyal logos, or protect newer customers from the chaos those customs create?
-- What’s It About? one-liner: We’re done selling heroics — we’re productizing the exception path that already saves our best accounts.
-- Rolls Royce Moment (vivid detail): The “Tuesday 4:12 p.m. ritual” — three CS leads still paste the same seven-step refund dance into Slack because the UI can’t say “this SKU is non-returnable in CA.”
-- Story Hook (unexpected | knowledge) + payoff: Unexpected — “Our strategy is to make Slack quieter.” Payoff: quieter Slack = exceptions handled in-product = sales can sell a system, not a favor.
+  - Threat: Point tools + AI wrappers promising “status for free.”
+  - Opportunity: Our exception rituals are secretly the product — if we productize them instead of wallpapering them.
+- Hero response (impose order | inject life): **Impose order** on exceptions (tribal Slack knowledge → product); **inject life** into a GTM motion stuck selling screenshots.
+- Moral stake (foundation or two-rights): **Care vs harm** colliding with **loyalty vs betrayal** — do we keep Insights for a few vocal logos, or protect the wedge users from a distracted company?
+- What’s It About? one-liner: We’re not another dashboard — we’re the workflow OS for “approved spec → prod,” starting with exceptions.
+- Rolls Royce Moment (vivid detail): The “Tuesday 4:07 p.m. ritual” — three PMs still paste the same seven-line status block into Slack because the tools can’t say “this ticket is blocked on a decision, not on code.”
+- Story Hook (unexpected | knowledge) + payoff: Unexpected — “Our strategy is to make Slack quieter.” Payoff: quieter Slack = exceptions in-product = GTM sells a system, not a favor.
 - One-page strategy story draft:
-  “Parcelite looks calm from the outside. Inside, Tuesday at 4:12, the same seven steps hit Slack. That ritual is the sound of Order leaking. Chaos isn’t a new competitor — it’s retailers asking for API truth we still keep in people’s heads. Strategy: take the exception dance out of Slack and into the product. We’ll disappoint a few custom requests (loyalty tension) so we don’t harm everyone else with fragility. If we do it, sales stops selling favors — and CS gets their evenings back.”
+  “Harbor looks busy from the outside. Inside, Tuesday at 4:07, the same seven lines hit Slack. That ritual is Order leaking. Chaos isn’t a new competitor — it’s ‘AI status’ that still can’t name a real blocker. Strategy: take the exception dance out of Slack and into the product. We’ll disappoint a few Insights fans so we don’t harm everyone with focus debt. If we do it, sales stops selling wallpaper — and PMs get their Sundays back.”
 - Three things they must remember:
   1. Strategy = productize exceptions, not “be a platform.”
-  2. Rolls Royce: Tuesday 4:12 Slack ritual.
-  3. Trade: fewer customs → more reliability.
-- TBD: Which three exception types ship first; sunset policy for custom deals.
+  2. Rolls Royce: Tuesday 4:07 Slack ritual.
+  3. Trade: kill comfortable dashboards → earn the wedge.
+- TBD: Which three exception types ship first; Insights sunset date.
 ```

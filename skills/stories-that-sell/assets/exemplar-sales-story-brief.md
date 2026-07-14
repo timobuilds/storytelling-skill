@@ -1,37 +1,37 @@
 # Exemplar — Sales Story Brief (fictional)
 
-Composite example for agents. Not a real company.
+Product / startup themed. Composite — not a real company. (“Harbor” = fictional workflow SaaS.)
 
 ```markdown
 # Sales Story Brief
-- Audience (who / role / context): Maya Chen, VP Operations at Midland Freight (120 terminals). Evaluates vendors with Ops + Finance. Hates “platform” pitches; cares about dock-to-door time and overtime spend.
-- Problem you solve for them: Yard congestion and manual gate checks burn 45–90 min per load and spike overtime on peak days.
-- Hopes / values to lean into: Predictable shifts for crews; being the carrier shippers trust on OTIF; looking competent to the board without a multi-year transformation.
-- Fears / objections to pre-empt: “Another dashboard we’ll ignore”; integration hell with their 2018 TMS; asking drivers to change habits.
-- Someone like them (customer story): Northline Logistics (similar terminal count). After go-live, average gate time dropped from 52 → 18 minutes in 10 weeks; overtime hours on peak days down ~30%.
-- Someone they like / influencer proof: Their peer, Raj at Coastal Haul, posted a short ops note: “We stopped babysitting the yard spreadsheet.” Maya respects Raj’s pragmatism.
+- Audience (who / role / context): Priya Nair, VP Product at Midscale (80-person B2B SaaS, series B). Cares about cycle time from approved spec → production. Hates “AI platform” pitches; lives in roadmap debt and tool sprawl.
+- Problem you solve for them: Specs, tickets, and launch checklists live in three tools — PMs babysit status while eng invents the real plan in Slack.
+- Hopes / values to lean into: Ship the wedge they promised the board; look competent to Eng without becoming a project manager; prove product ops can scale past heroics.
+- Fears / objections to pre-empt: “Another source of truth nobody opens”; migration tax; AI that hallucinates status.
+- Someone like them (customer story): Twinpeak (similar stage/size). After 8 weeks on Harbor, median “approved spec → prod” dropped 11 → 6 days; PM lead stopped running a Sunday status spreadsheet.
+- Someone they like / influencer proof: Their advisor (ex-VP Product at a known PLG company) introduced us: “They fix the handoff, not the dashboard wallpaper.”
 - Social proof (trend / prototype / testimonial moment):
-  - Trend: 3 of 5 regional mid-market carriers we spoke to this quarter cited gate time as top Ops KPI.
-  - Prototype: 2-week pilot at one Midland terminal (camera + exceptions only) — supervisors watched exceptions, not every truck.
-  - Testimonial moment: Northline supervisor: “The first day I didn’t radio the same driver three times, I believed it.”
-- Arc (Rags to Riches | No Easy Way) + beats: **No Easy Way** (sceptical buyer)
-  - Problem: Peak days = radio chaos, overtime, angry shippers.
-  - Early Success: Pilot terminal clears morning wave without the usual backlog.
-  - Setback: Edge case with leased trailers breaks the happy path; crew distrust spikes.
-  - Crisis: “Turn it off” week — Ops almost reverts to paper.
-  - Recovery: Exception workflow + 20-min standups; supervisors own the queue.
-  - Better Place: Gate time predictable; overtime no longer a surprise; Maya can show Finance a clean before/after.
-- Trust line (why you — Trust Me moment): We refused a bigger deal that required hiding driver wait metrics from the customer. We ship the ugly numbers because Ops can’t fix what Finance can’t see.
-- Elevator (problem / solve / trust): Midland’s losing hours at the gate. We cut gate time with exception-based yard flow that plugs into your TMS. Trust us because we ran the same fight at Northline — and we won’t hide the bad weeks.
+  - Trend: 4/5 design partners this quarter cited “status fiction” between PM and eng as the #1 cycle-time killer.
+  - Prototype: 2-week shadow mode on one Midscale squad — Harbor mirrored tickets, humans only touched exceptions.
+  - Testimonial moment: Twinpeak EM: “The first week I didn’t get a ‘what’s the real status?’ ping, I believed it.”
+- Arc (Rags to Riches | No Easy Way) + beats: **No Easy Way** (sceptical product buyer)
+  - Problem: Roadmap looks green; shipping is still late; trust erodes.
+  - Early Success: One squad sees exception-only status; Sunday spreadsheet dies.
+  - Setback: Edge-case launch checklist breaks; eng calls it “yet another tool.”
+  - Crisis: Pilot almost cancelled after a bad demo week.
+  - Recovery: Exception playbook + 15-min standup ritual; PM owns the queue.
+  - Better Place: Cycle time you can put in a board slide; fewer heroics.
+- Trust line (why you — Trust Me moment): We killed our own “AI status summary” upsell when it drifted from ticket truth in beta — even though it demoed better. We’d rather lose a flashy feature than teach PMs to distrust the feed.
+- Elevator (problem / solve / trust): Midscale’s losing days between approved specs and prod because status lives in Slack. Harbor is exception-first workflow for that handoff. Trust us — Twinpeak cut 11 → 6 days, and we refuse to ship status fiction.
 - POPP pitch:
-  - Problem: On peak days your terminals bleed overtime and OTIF while crews babysit a spreadsheet and a radio.
-  - Opportunity: You already have cameras and a TMS — the missing piece is exception-first flow so humans only touch the weird trucks.
-  - Practical Steps: One-terminal pilot → exception playbook → roll to the worst five yards; expect a messy week-three.
-  - Promise: Gate time you can put in a board slide — and crews who aren’t living on channel 3.
+  - Problem: Your roadmap is a fiction novel — green tickets, late ships, Sunday spreadsheets.
+  - Opportunity: You already have the tools; you’re missing exception-first handoff between PM and eng.
+  - Practical Steps: One-squad shadow → exception playbook → expand to the worst two teams; expect a messy week three.
+  - Promise: Cycle time you can defend in a board meeting — and PMs who stop being human middleware.
 - Three things they must remember:
-  1. Exception-first, not “watch every truck.”
-  2. Northline: 52 → 18 min gate time.
-  3. We show ugly weeks on purpose.
-- Whose story / permission / Story Bank note: Northline story — written permission 2026-03-12; anonymize terminal names if used externally. Coastal Haul quote — Raj OK for private sales rooms only.
-- TBD: Midland’s exact TMS version; Finance’s overtime $ target.
+  1. Exception-first handoff, not another dashboard.
+  2. Twinpeak: 11 → 6 days spec → prod.
+  3. We killed our own status-fiction AI on purpose.
+- Whose story / permission / Story Bank note: Twinpeak — private rooms OK; public case study pending legal. Advisor quote — warm intro only.
+- TBD: Midscale’s ticketing stack; pilot pricing seat count.
 ```

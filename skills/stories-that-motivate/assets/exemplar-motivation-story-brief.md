@@ -1,29 +1,29 @@
 # Exemplar — Motivation Story Brief (fictional)
 
-Composite example for agents. Not a real company.
+Product / startup themed. Composite — not a real company.
 
 ```markdown
 # Motivation Story Brief
-- Audience + adopter type (pioneer → traditional): Internal — exec team + regional managers at “Hearth Home” (DTC furniture). Mix of Early Mainstream (CRO) and Traditional (longest-tenured regional leads who fear store disruption).
-- City (status quo — good / bad / who decides): Good: beloved brand, strong NPS in showrooms. Bad: 14-day quote-to-delivery fantasy that Ops can’t keep; showrooms over-promise. Who decides: CEO + CFO greenlight; regionals can quietly starve the rollout.
-- Dragon (threat + hoarded opportunity): Threat: Amazon-speed expectations + two competitors publishing “5-day delivery” claims. Opportunity: we already own the last-mile partners — unused coordination gold.
-- Choice (Escape | Defend | Attack) + why: **Attack** — publish a real 7-day promise in three regions and prove it, rather than defend vague “premium timelines.”
+- Audience + adopter type (pioneer → traditional): Internal — Harbor product + eng + design (45 people). Mix of Pioneers (founding PMs) and Early Mainstream (newer eng leads who fear ripping out a beloved “Insights” dashboard customers still mention).
+- City (status quo — good / bad / who decides): Good: Insights has fans and nice screenshots for sales. Bad: it pulls eng from the wedge (spec→ship handoff); activation data shows Insights users don’t retain. Who decides: CEO + Head of Product; squad leads can starve the kill silently.
+- Dragon (threat + hoarded opportunity): Threat: runway + a competitor shipping a sharper handoff workflow. Opportunity: every week we spend on Insights is a week we’re not the default for “approved spec → prod.”
+- Choice (Escape | Defend | Attack) + why: **Attack** — publicly kill Insights in Q2, reassign the squad to the wedge, and tell customers the truth: we’re choosing depth over dashboard theater.
 - Drive (autonomy / mastery / purpose) — your story + theirs:
-  - Autonomy: Regionals get to pick SKU subsets for the promise (not HQ dictating every SKU).
-  - Mastery: Ops leads train on a new exception huddle — skill they’re proud of.
-  - Purpose: Stop lying to customers we like; protect the brand that paid for everyone’s careers.
-- Greatest conflict (Nature | Society | Self): **Self** — we are our own enemy: sales incentives still reward the optimistic date.
+  - Autonomy: Squads pick migration paths for the three Insights accounts that matter.
+  - Mastery: Eng gets to build the hard exception engine — craft they’re proud of.
+  - Purpose: Stop lying to ourselves that a pretty dashboard is the product.
+- Greatest conflict (Nature | Society | Self): **Self** — we are addicted to demoable surfaces that don’t move retention.
 - No Easy Way beats:
-  - Problem: We sell a fairy-tale lead time; Ops eats the shame.
-  - Early Success: Pilot region hits 7-day on 82% of promise SKUs in month one.
-  - Setback: Sales keeps quoting non-promise SKUs as 7-day; returns spike.
-  - Crisis: One viral complaint; Traditional regionals say “told you so.”
-  - Recovery: SKU badge in the quote tool + clawback on bad quotes; CEO tells the failure story first in all-hands.
-  - Better Place: Promise means something; regionals compete on kept promises, not fantasy dates.
-- What you’re asking them to do: Approve the three-region Attack; change comp so quoting outside the badge hurts; stand with Ops when week three is ugly.
+  - Problem: Insights looks like progress; retention says otherwise.
+  - Early Success: Wedge squad ships exception queue; one design partner raves.
+  - Setback: Sales loses a deal that “needed Insights screenshots.”
+  - Crisis: Slack mutiny — “we’re abandoning users.”
+  - Recovery: CEO tells the kill story first in all-hands; migration concierge for three logos; roadmap wall shows what we gained.
+  - Better Place: One clear product story; eng capacity on the wedge; sales sells handoff, not wallpaper.
+- What you’re asking them to do: Approve the kill; change sales talk tracks this week; stand with the wedge squad when week three is loud.
 - Three things they must remember:
-  1. Dragon is expectation speed — our gold is unused partner coordination.
-  2. Attack with a narrow, honest 7-day badge — not a slogan.
-  3. Week three will hurt; that’s the story, not a failure of nerve.
-- TBD: Exact SKU list for pilot; clawback %.
+  1. Dragon is focus — Insights is a comfortable trap.
+  2. Attack = kill + reassign, not “sunset someday.”
+  3. Week three will hurt; that’s the story of choosing the product.
+- TBD: Exact three logos for concierge; public changelog date.
 ```

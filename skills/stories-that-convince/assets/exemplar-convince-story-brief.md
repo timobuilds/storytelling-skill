@@ -1,21 +1,21 @@
 # Exemplar — Convince Story Brief (fictional)
 
-Composite example for agents. Not a real company.
+Product / startup themed. Composite — not a real company.
 
 ```markdown
 # Convince Story Brief
-- Audience (expertise level): Hospital CIO + nursing leads. Smart, time-poor, allergic to “AI will transform care” slides. Need to trust a clinical-ops researcher’s recommendation on triage load.
+- Audience (expertise level): Harbor leadership (CEO, Head of Product, Head of Eng). Smart, time-poor, allergic to “users need more education” as the conclusion.
 - Three facts they must remember:
-  1. Night-shift triage callbacks cluster in a 90-minute window after shift change — not “all night.”
-  2. 61% of those callbacks were missing one field on the intake form (meds list).
-  3. Fixing that field cut callbacks 28% in a 6-week shadow trial — with no new headcount.
-- Three-pattern (Attention | Reversal | Goldilocks): **Reversal Three** — (1) “We need more night nurses.” (2) “We need a bigger call center.” (3) Reversal: “We need one field filled at intake.”
-- “That’s funny…” insight moment: The callback graph looked “random night chaos” until we overlaid shift change — then a spike snapped into place. Funny peculiar: the busiest hour wasn’t the sickest hour; it was the handoff hour.
-- Data frame (Zoomer | Detective | Sceptic): **Detective** — “body” = nurse burnout complaints → evidence = call logs + form audits → clue = missing meds field → “killer” = form constraint + 30-sec script.
-- Trust Me moment (values under cost): We recommended *not* buying the vendor’s $400k chatbot package after the trial — even though it would have been an easier SOW for us. We’d rather lose the upsell than staff another dashboard nobody opens at 3 a.m.
-- Hero (user) goal: Nursing lead wants fewer angry callbacks and fewer “why didn’t you ask me that already” moments for patients.
-- Guide type + gift you offer: **Sage** — gift is the map (when the spike happens + which field) and the crystal ball (what not to buy yet).
+  1. Activation cliff is day 3 — not day 14 — for PMs who invite eng.
+  2. 58% of stalled workspaces never created a single *exception* (only mirrored tickets).
+  3. A 6-week experiment forcing one exception ritual lifted week-4 retention +19pp — no new onboarding tips.
+- Three-pattern (Attention | Reversal | Goldilocks): **Reversal Three** — (1) “We need more tooltips.” (2) “We need a longer checklist.” (3) Reversal: “We need one exception ritual in week one.”
+- “That’s funny…” insight moment: The funnel looked like a classic onboarding problem until we overlaid “first exception created.” Stalls clustered where teams only mirrored Jira — funny peculiar: they “activated” in analytics and still got zero value.
+- Data frame (Zoomer | Detective | Sceptic): **Detective** — body = “activation is fine, retention isn’t” → evidence = event logs + 12 interviews → clue = no exception habit → killer = ritual + empty-state that demands one real exception.
+- Trust Me moment (values under cost): Recommended *not* shipping the sales-requested “AI weekly digest” after it increased opens but not retention — we’d rather lose a board-slide feature than optimize for vanity engagement.
+- Hero (user) goal: PM wants eng to trust the plan without becoming a status nag.
+- Guide type + gift you offer: **Sage** — gift is the map (when the cliff hits + what behavior predicts retention).
 - Spoken story draft:
-  “You’re not understaffed in a vague way at night — you’re getting hit in a 90-minute band after shift change. We thought we needed more people. Then the form audit showed 61% of those calls were chasing one missing field. In a shadow trial, forcing that field cut callbacks 28%. That’s why I’m not here to sell you a chatbot. I’m here to ask you to change one box — and measure the next six weeks like adults.”
-- TBD: Confirm trial ward names for internal-only telling; board wants $ impact estimate.
+  “We’re not failing onboarding copy — we’re failing the first real handoff. Day 3 is the cliff if a PM invites eng but never creates an exception. 58% of stalled workspaces only mirrored tickets. When we forced one exception ritual, week-4 retention jumped 19 points. That’s why I’m not asking for more tips. I’m asking to redesign empty states around one exception — and to kill the digest that only feeds the board slide.”
+- TBD: Confirm experiment cohort size for the board appendix; name of the ritual in product copy.
 ```

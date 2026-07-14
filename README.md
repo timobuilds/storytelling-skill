@@ -1,140 +1,116 @@
 # Storyteller Skills Plugin
 
-Portable [Agent Skills](https://agentskills.io) plugin based on **Storyteller Tactics** frameworks.
+Agent skills that help you **build product and startup stories** — pitches, strategy narratives, user-research stories, team buy-in, and demos — using Storyteller Tactics frameworks.
 
-**Front door:** `storyteller-start` — diagnoses your goal, routes to a recipe, drafts a story brief.  
-**Recipes:** `stories-that-sell` · `motivate` · `convince` · `connect` · `explain` · `lead` · `impress`  
-**Reference:** `storyteller-tactics` — arcs, cards, glossary (not the starting skill for vague asks)
+Not a writing style guide. A **draft-first workshop**: the agent diagnoses the job, fills a story brief, asks only what’s missing, and revises until you can say it out loud.
 
-Every recipe is **draft-first**: filled brief + `TBD`s, then you react — not a blank questionnaire. Each recipe ships a **fictional exemplar** so agents match density and shape (not the fake facts).
+## What this is good for
 
-## Install (npm)
+| You’re doing… | This plugin helps you… |
+|---------------|------------------------|
+| **Startup storytelling** | Investor / customer / hire pitches that land problem → proof → ask |
+| **Product strategy** | Make the “why this bet” narrative stick (not a 40-page roadmap PDF) |
+| **Product development** | Turn research, tradeoffs, and failures into stories the team can share |
+| **GTM / sales** | Case studies and POPP pitches grounded in someone-like-you proof |
+| **Leadership / culture** | Change stories, blameless failure tales, “how we build” |
+| **Demos & talks** | Presentations that movie-check and don’t read the slides |
 
-```bash
-npm install storyteller-skills
+**Use it when** you have raw material (customer quote, metric, roadmap conflict, research note) and need a story shape.  
+**Don’t use it for** brand identity systems, ad creative ops, or generic copy polish with no narrative job.
+
+## How it works
+
+1. **`storyteller-start`** — front door. Infers your job → picks one recipe → drafts a brief.
+2. **Recipe skills** — run the full stack for that job (sell, motivate, convince, connect, explain, lead, impress).
+3. **`storyteller-tactics`** — shared reference (arcs, cards, glossary) when you name a tactic.
+
+Every recipe is **draft-first**: filled brief + `TBD`s → you react → agent asks only blockers → revise.  
+Exemplars are **fictional product/startup scenarios** — match density and shape, not the fake facts.
+
+## Quick start
+
+```
+Use storyteller-start — I need a story for [product / startup situation]
 ```
 
-Install hooks (`postinstall` / `prepare`) symlink all 9 skills into the project’s agent dirs:
+Or jump straight:
 
-- `.cursor/skills/`
-- `.claude/skills/`
-- `.codex/skills/`
-- `.agents/skills/`
-
-If hooks were skipped (some npm configs use `--ignore-scripts`), run:
-
-```bash
-npx storyteller-skills
-# or
-npm run sync --prefix node_modules/storyteller-skills
+```
+Use stories-that-sell — design-partner case study for our PLG wedge
+Use stories-that-explain — why we’re killing Feature X for this bet
+Use stories-that-connect — synthesize these five user interviews
 ```
 
-Globals (`~/.cursor/skills`, `~/.claude/skills`, …):
+## Skills
+
+| Skill | Product / startup use | Artifact |
+|--------|----------------------|----------|
+| `storyteller-start` | “Where do I start?” | Story Intake → routes |
+| `stories-that-sell` | Customer / investor / design-partner pitch | Sales Story Brief |
+| `stories-that-motivate` | Roadmap buy-in, risky bet, org change | Motivation Story Brief |
+| `stories-that-convince` | Research readout, PM/insight → leadership | Convince Story Brief |
+| `stories-that-connect` | User research, JTBD, empathy for builders | Connect Story Brief |
+| `stories-that-explain` | Product strategy / “why this direction” | Explain Story Brief |
+| `stories-that-lead` | Team culture, launch postmortems, how we build | Lead Story Brief |
+| `stories-that-impress` | Demo day, board, all-hands, launch talk | Impress Story Brief |
+| `storyteller-tactics` | Named tactic only (Man in a Hole, POPP…) | Reference chapters |
+
+## Install
+
+### npm / GitHub
 
 ```bash
-npx storyteller-skills --global
-# or
-STORYTELLER_SKILLS_GLOBAL=1 npm install storyteller-skills
-```
-
-### Before the package is on the registry
-
-```bash
-# Develop / use this repo
-cd storytelling-skill && npm install
-
-# Another project — local path
-npm install /path/to/storytelling-skill --foreground-scripts
-npx storyteller-skills   # if links didn’t appear
-
-# Or from GitHub
 npm install github:timobuilds/storytelling-skill --foreground-scripts
+npx storyteller-skills          # if hooks were skipped
+npx storyteller-skills --global # also ~/.cursor, ~/.claude, ~/.codex, ~/.agents
 ```
 
-### Alternative: skills CLI (Git)
+Or from this repo: `npm install`
+
+Hooks symlink skills into `.cursor/skills/`, `.claude/skills/`, `.codex/skills/`, `.agents/skills/`.
+
+### skills CLI
 
 ```bash
 npx skills add timobuilds/storytelling-skill --skill '*' -y
 npx skills add timobuilds/storytelling-skill -g --skill '*' -y
 ```
 
-### Sync via skills CLI from node_modules
-
-```bash
-npm install storyteller-skills
-npx skills experimental_sync -y
-```
-
 ### ChatGPT
 
-Upload folders under `skills/` (each must contain `SKILL.md`). Prefer `storyteller-start`, the recipe you need, and `storyteller-tactics`.
+Upload folders under `skills/` (each needs `SKILL.md`). Prefer `storyteller-start`, one recipe, and `storyteller-tactics`.
 
-## Skills
+## Exemplars (fictional — product / startup themed)
 
-| Skill | When to use | Artifact |
-|--------|-------------|----------|
-| `storyteller-start` | Vague “help me tell a story” / where do I start? | Story Intake → routes |
-| `stories-that-sell` | Sell, convert, case study, POPP pitch | Sales Story Brief |
-| `stories-that-motivate` | Buy-in, change, leap of faith | Motivation Story Brief |
-| `stories-that-convince` | Expertise, research readout, sticky facts | Convince Story Brief |
-| `stories-that-connect` | Empathy, user research, walk in their shoes | Connect Story Brief |
-| `stories-that-explain` | Strategy narrative people will actually read | Explain Story Brief |
-| `stories-that-lead` | Team culture, how we work, thoughtful failures | Lead Story Brief |
-| `stories-that-impress` | Keynote, deck, presentation | Impress Story Brief |
-| `storyteller-tactics` | Named tactic only (Man in a Hole, Movie Time…) | Reference chapters |
+All gold samples use a fictional B2B product company so agents learn **startup and product narrative density**:
 
-## Usage
-
-```
-Use storyteller-start — I need a story for [situation]
-```
-
-Or jump straight:
-
-```
-Use stories-that-sell — here’s the product and the buyer…
-```
+| Recipe | Scenario |
+|--------|----------|
+| Intake → Sell | Seed-stage workflow SaaS → design-partner VP Product |
+| Motivate | Get eng + design buy-in to kill a beloved feature for the wedge |
+| Convince | PM research readout: activation cliff isn’t “more onboarding tips” |
+| Connect | Builder interview — PM who lives in spreadsheets between tools |
+| Explain | Strategy all-hands: why we’re a workflow OS, not another dashboard |
+| Lead | Product squad culture after a failed public beta |
+| Impress | Demo-day / board talk: the Tuesday 4pm “status fiction” moment |
 
 ## Layout
 
 ```
 package.json
-scripts/install.cjs          # postinstall + npx storyteller-skills
+scripts/install.cjs
 skills/
   storyteller-start/
-  stories-that-*/            # seven recipes + templates + exemplars
-  storyteller-tactics/       # doctrine, chapters, glossary
+  stories-that-*/      # recipes + templates + exemplars
+  storyteller-tactics/ # doctrine, chapters, glossary
 README.md
 ```
 
-### Exemplars (fictional)
-
-| Recipe | Scenario |
-|--------|----------|
-| Sell | Yard/gate-time SaaS → VP Ops |
-| Motivate | DTC furniture 7-day delivery change |
-| Convince | Hospital triage research readout |
-| Connect | Barista trainer + scheduling tool |
-| Explain | Returns-logistics strategy all-hands |
-| Lead | Eng team after a bad permissions launch |
-| Impress | Security summit talk on offboarding |
-
 ## Publish
-
-1. Edit `repository` / `homepage` in `package.json` to your GitHub URL.
-2. Ensure the name `storyteller-skills` is free (or rename / scope it, e.g. `@you/storyteller-skills`).
-3. Then:
 
 ```bash
 npm login
-npm publish
-```
-
-Consumers:
-
-```bash
-npm install storyteller-skills
-npx storyteller-skills   # optional re-sync
+npm publish   # package name: storyteller-skills
 ```
 
 ## Source & rights
