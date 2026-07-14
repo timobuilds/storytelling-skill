@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USER/storytelling-skill.git"
+    "url": "git+https://github.com/timobuilds/storytelling-skill.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USER/storytelling-skill/issues"
+    "url": "https://github.com/timobuilds/storytelling-skill/issues"
   },
-  "homepage": "https://github.com/YOUR_USER/storytelling-skill#readme"
+  "homepage": "https://github.com/timobuilds/storytelling-skill#readme"
 }

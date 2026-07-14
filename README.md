@@ -47,15 +47,15 @@ cd storytelling-skill && npm install
 npm install /path/to/storytelling-skill --foreground-scripts
 npx storyteller-skills   # if links didn’t appear
 
-# Or from GitHub (after you push)
-npm install github:YOUR_USER/storytelling-skill --foreground-scripts
+# Or from GitHub
+npm install github:timobuilds/storytelling-skill --foreground-scripts
 ```
 
 ### Alternative: skills CLI (Git)
 
 ```bash
-npx skills add YOUR_USER/storytelling-skill --skill '*' -y
-npx skills add YOUR_USER/storytelling-skill -g --skill '*' -y
+npx skills add timobuilds/storytelling-skill --skill '*' -y
+npx skills add timobuilds/storytelling-skill -g --skill '*' -y
 ```
 
 ### Sync via skills CLI from node_modules
