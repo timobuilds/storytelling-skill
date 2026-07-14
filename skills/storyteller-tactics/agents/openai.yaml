@@ -1,0 +1,7 @@
+interface:
+  display_name: "Storyteller Tactics"
+  short_description: "Shared reference — arcs, cards, glossary"
+  brand_color: "#1a1a1a"
+  default_prompt: "Use $storyteller-tactics as reference. Prefer $storyteller-start if I need help choosing a story job."
+policy:
+  allow_implicit_invocation: false

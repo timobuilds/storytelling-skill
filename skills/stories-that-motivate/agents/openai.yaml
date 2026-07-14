@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stories that Motivate"
+  short_description: "Recipe workflow — draft-first story brief"
+  brand_color: "#1a1a1a"
+  default_prompt: "Use $stories-that-motivate. Draft a filled Motivation Story Brief with No Easy Way beats."
+policy:
+  allow_implicit_invocation: true

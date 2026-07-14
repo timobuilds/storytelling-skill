@@ -1,0 +1,7 @@
+interface:
+  display_name: "Storyteller Start"
+  short_description: "Diagnose story job → route to a recipe → draft"
+  brand_color: "#1a1a1a"
+  default_prompt: "Use $storyteller-start. Diagnose in 3 bullets, propose one recipe skill, state the hard no, and draft step 1 filled for me to react to."
+policy:
+  allow_implicit_invocation: true

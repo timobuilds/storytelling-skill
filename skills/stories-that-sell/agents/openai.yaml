@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stories that Sell"
+  short_description: "Recipe workflow — draft-first story brief"
+  brand_color: "#1a1a1a"
+  default_prompt: "Use $stories-that-sell. Draft a filled Sales Story Brief and POPP pitch for me to react to."
+policy:
+  allow_implicit_invocation: true

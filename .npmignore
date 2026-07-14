@@ -1,0 +1,11 @@
+*.pdf
+tmp/
+.DS_Store
+.cursor/
+.claude/
+.codex/
+.agents/
+node_modules/
+*.tgz
+.git/
+skills-lock.json

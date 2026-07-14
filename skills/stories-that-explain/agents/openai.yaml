@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stories that Explain"
+  short_description: "Recipe workflow — draft-first story brief"
+  brand_color: "#1a1a1a"
+  default_prompt: "Use $stories-that-explain. Draft a filled Explain Story Brief and one-page strategy story."
+policy:
+  allow_implicit_invocation: true

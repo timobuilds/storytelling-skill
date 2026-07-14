@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stories that Convince"
+  short_description: "Recipe workflow — draft-first story brief"
+  brand_color: "#1a1a1a"
+  default_prompt: "Use $stories-that-convince. Draft a filled Convince Story Brief with three facts and a Trust Me moment."
+policy:
+  allow_implicit_invocation: true

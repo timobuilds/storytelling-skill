@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stories that Connect"
+  short_description: "Recipe workflow — draft-first story brief"
+  brand_color: "#1a1a1a"
+  default_prompt: "Use $stories-that-connect. Draft a filled Connect Story Brief from what I shared; flag permission gaps."
+policy:
+  allow_implicit_invocation: true

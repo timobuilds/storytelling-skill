@@ -1,0 +1,15 @@
+# Source materials (not part of the npm package)
+*.pdf
+tmp/
+.DS_Store
+
+# Agent discovery symlinks (local only; package ships skills/)
+.cursor/
+.claude/
+.codex/
+.agents/
+
+# npm / pack
+node_modules/
+*.tgz
+skills-lock.json
