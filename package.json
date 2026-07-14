@@ -1,6 +1,6 @@
 {
   "name": "storyteller-skills",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Agent skills for product development, product strategy, and startup storytelling: diagnose the story job, run a recipe workflow, draft a brief. Works with Cursor, Claude Code, Codex, and other Agent Skills hosts.",
   "keywords": [
     "agent-skill",
