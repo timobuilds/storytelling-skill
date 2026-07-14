@@ -106,29 +106,39 @@ function main() {
   }
 
   const root = projectRoot();
+  // Default to global when invoked as the installed bin with no project context,
+  // or when npm installed this package globally.
   const npmGlobal =
     process.env.npm_config_global === "true" ||
     process.env.npm_config_global === "1";
+  const invokedAsBin =
+    process.argv[1] &&
+    (process.argv[1].includes(`${path.sep}storyteller-skills`) ||
+      path.basename(process.argv[1]) === "storyteller-skills");
   const wantGlobal =
     npmGlobal ||
     process.env.STORYTELLER_SKILLS_GLOBAL === "1" ||
     process.argv.includes("--global") ||
-    process.argv.includes("-g");
+    process.argv.includes("-g") ||
+    (invokedAsBin && isInsideNodeModules(pkgRoot));
 
   const targets = [];
-  // Project agent dirs (skip when this is a pure global npm install)
-  if (!npmGlobal) {
-    targets.push(...agentTargets(root));
-  }
+  // Always link globals for -g / bin after global install
   if (wantGlobal || !isInsideNodeModules(pkgRoot)) {
     for (const t of globalTargets()) {
+      if (!targets.includes(t)) targets.push(t);
+    }
+  }
+  // Also link project agent dirs unless this is a pure global install
+  if (!npmGlobal || process.argv.includes("--project")) {
+    for (const t of agentTargets(root)) {
       if (!targets.includes(t)) targets.push(t);
     }
   }
 
   let ok = 0;
   let fail = 0;
-  const where = npmGlobal ? "global agent skill dirs" : root;
+  const where = wantGlobal ? "global (+ project) agent skill dirs" : root;
   console.log(`[storyteller-skills] Installing ${skills.length} skills → ${where}`);
 
   for (const target of targets) {

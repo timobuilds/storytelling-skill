@@ -58,14 +58,21 @@ Use stories-that-connect — synthesize these five user interviews
 ## Install
 
 ```bash
-npm install github:timobuilds/storytelling-skill
+npm install -g github:timobuilds/storytelling-skill
+storyteller-skills
 ```
 
-That’s it. Postinstall links the skills into `.cursor/skills`, `.claude/skills`, `.codex/skills`, and `.agents/skills` in your project.
+1. Installs the package  
+2. Links skills into `~/.cursor/skills`, `~/.claude/skills`, `~/.codex/skills`, and `~/.agents/skills`
+
+Project-only (this repo / a single app):
 
 ```bash
-npm install -g github:timobuilds/storytelling-skill   # all your projects
+npm install github:timobuilds/storytelling-skill
+npx storyteller-skills
 ```
+
+> No postinstall hook — some Node installs (e.g. Hermes) can’t run npm lifecycle scripts (`spawn sh ENOENT`). The `storyteller-skills` command does the linking instead.
 
 ## Exemplars (fictional — product / startup themed)
 
