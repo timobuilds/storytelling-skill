@@ -43,7 +43,7 @@ Function tactics answer *what the story needs to do*: sell, pitch, surface insig
 - Use Icebreakers before workshops that need visual/dramatic thinking.
 
 ## Anti-patterns
-- **Pitching in a literal elevator** (Rawling: weird — and conceptually, rushing without POPP).
+- **Pitching in a literal elevator** (weird — and conceptually, rushing without POPP).
 - **Feature dump** instead of problem → trust → promise.
 - **Sales stories about dissimilar customers** without bridging sector/problem.
 

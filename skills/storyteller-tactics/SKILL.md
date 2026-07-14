@@ -1,7 +1,7 @@
 ---
 name: storyteller-tactics
 description: >-
-  Shared reference library for Storyteller Tactics (Pip Decks): named arcs,
+  Shared reference library for Storyteller Tactics: named arcs,
   Desert Island cards, glossary, and category chapters. Use when the user names
   a specific tactic (Man in a Hole, POPP, Movie Time, Dragon & the City, etc.)
   or when a recipe skill needs deep card steps. Prefer storyteller-start for
@@ -11,7 +11,7 @@ metadata:
   short-description: Shared tactics reference (not the front door)
   author: storyteller-skills
   version: "1.0.0"
-  source: Storyteller Tactics / Pip Decks (Steve Rawling)
+  source: Storyteller Tactics
 ---
 
 # Storyteller Tactics (Reference)
@@ -79,4 +79,4 @@ Read [references/doctrine.md](references/doctrine.md).
 
 ## Scope
 
-Synthesized from Storyteller Tactics Volume I © Steve Rawling / Pip Decks. Do not redistribute deck materials or card art.
+Frameworks synthesized from Storyteller Tactics Volume I. Do not redistribute original deck materials or card art.

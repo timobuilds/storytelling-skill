@@ -5,14 +5,14 @@ description: >-
   lightly, diagnoses the story job, and routes to a recipe skill (sell, motivate,
   convince, connect, explain, lead, impress). Use when the user asks for help
   telling a story, building a pitch narrative, “where do I start with storytelling,”
-  Pip Decks / Storyteller Tactics without naming a recipe, or when the ask spans
+  Storyteller Tactics without naming a recipe, or when the ask spans
   audience + arc + delivery. Prefer a specialized recipe skill when they already
   name the job. Do not use for brand identity systems alone or ad creative ops.
 metadata:
   short-description: Start here — diagnose story job, route to a recipe
   author: storyteller-skills
   version: "1.0.0"
-  source: Storyteller Tactics / Pip Decks (Steve Rawling)
+  source: Storyteller Tactics
 ---
 
 # Storyteller Start

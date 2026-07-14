@@ -1,13 +1,12 @@
 {
   "name": "storyteller-skills",
   "version": "1.0.0",
-  "description": "Agent skills plugin for Storyteller Tactics (Pip Decks): diagnose a story job, run a recipe workflow, draft a brief. Works with Cursor, Claude Code, Codex, and other Agent Skills hosts.",
+  "description": "Agent skills plugin for Storyteller Tactics: diagnose a story job, run a recipe workflow, draft a brief. Works with Cursor, Claude Code, Codex, and other Agent Skills hosts.",
   "keywords": [
     "agent-skill",
     "agent-skills",
     "storytelling",
     "storyteller-tactics",
-    "pipdecks",
     "claude-code",
     "cursor",
     "codex",

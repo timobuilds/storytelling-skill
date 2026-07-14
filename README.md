@@ -1,6 +1,6 @@
 # Storyteller Skills Plugin
 
-Portable [Agent Skills](https://agentskills.io) plugin from **Storyteller Tactics** (Pip Decks) by Steve Rawling.
+Portable [Agent Skills](https://agentskills.io) plugin based on **Storyteller Tactics** frameworks.
 
 **Front door:** `storyteller-start` — diagnoses your goal, routes to a recipe, drafts a story brief.  
 **Recipes:** `stories-that-sell` · `motivate` · `convince` · `connect` · `explain` · `lead` · `impress`  
@@ -139,4 +139,4 @@ npx storyteller-skills   # optional re-sync
 
 ## Source & rights
 
-Synthesized from *Storyteller Tactics* Volume I © 2021 Steve Rawling / Pip Decks (Chxrles Ltd). Frameworks for agent use — not a substitute for the deck; do not redistribute card art. [pipdecks.com](https://pipdecks.com)
+Frameworks synthesized for agent use from *Storyteller Tactics* Volume I. Not a substitute for the original materials; do not redistribute card art.
